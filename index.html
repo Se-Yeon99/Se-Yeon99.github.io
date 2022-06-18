@@ -3,17 +3,49 @@
   <head>
     <meta charset="utf-8">
     <meta name='viewport' content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <title>myMonmentum</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>myMomentum</title>
   </head>
   <body>
-    <!--로그인 생성-->
-    <form>
 
-    </form>
-
+    <div id="box">
+    </div>
     
-    <script src="app.js"></script>
+
+
+   <!--시계-->
+   <h2 id ="clock"></h2>
+  
+    <!--로그인 -->
+    <div class="loginClass" >
+      <form id="loginForm" >
+        <input id="login1" required maxlength="11"
+        placeholder=" your name"
+        type="text" />
+        <input id="login2"type="submit" value="Log in"/>
+      </form>
+    </div>
+
+    <h1 id="greeting" class="hidden"></h1>
+
+
+    <!-- todolist -->
+    <form id ="todo-form">
+      <input class="todo" type="text" placeholder="write a To Do and Press Enter" required/>
+    </form>
+    <ul class="todo" id="todo-list"></ul>
+   
+  <!--명언-->
+  <div id = "quote">
+    <span></span>  -
+
+    <span></span>-
+  </div>
+    <script src="js/login.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quotes.js"></script>
+   <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
   </body>
 
 </html>
