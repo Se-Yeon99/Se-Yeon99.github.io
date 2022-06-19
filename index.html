@@ -7,31 +7,38 @@
     <title>myMomentum</title>
   </head>
   <body>
-
+    <!-- 투명박스 -->
     <div id="box">
     </div>
     
+    <div id="box1">
+    </div>
 
+    <div id="box2">
+    </div>
+
+    <div id="box3">
+    </div>
 
    <!--시계-->
    <h2 id ="clock"></h2>
   
     <!--로그인 -->
     <div class="loginClass" >
+
       <form id="loginForm" >
-        <input id="login1" required maxlength="11"
+        <input id="login-text" required maxlength="11"
         placeholder=" your name"
         type="text" />
-        <input id="login2"type="submit" value="Log in"/>
+        <input id="login-button"type="submit" value=""/>
       </form>
     </div>
 
     <h1 id="greeting" class="hidden"></h1>
-
-
+    
     <!-- todolist -->
     <form id ="todo-form">
-      <input class="todo" type="text" placeholder="write a To Do and Press Enter" required/>
+      <input class="todo" id="under" type="text" placeholder="write a To Do and Press Enter" required/>
     </form>
     <ul class="todo" id="todo-list"></ul>
    
@@ -41,11 +48,44 @@
 
     <span></span>-
   </div>
+
+<!-- 날씨 -->
+  <div id="weather">
+    <span></span>
+    <Span></Span>
+  </div>
+
+  <!-- 사이트 -->
+  <div class="img1">
+    <a href="https://github.com/Se-Yeon99/Se-Yeon99.github.io" target="_blank"><img id="icon" src="img/github.png"></a>
+  </div>
+
+  <div class="img2">
+    <a href="https://se-yeon.tistory.com/" target="_blank"><img id="icon" src="img/tistory.png"></a>
+  </div>
+
+  <div class="img3">
+    <a href="https://nomadcoders.co/" target="_blank"><img id="icon" src="img/nomad.png"></a>
+  </div>
+
+  <div class="img4">
+    <a href="https://www.google.co.kr/" target="_blank"><img id="icon" src="img/google.png"></a>
+  </div>
+
+  <div class="img5">
+   <a href="https://www.naver.com/" target="_blank"> <img id="icon" src="img/navver.png"></a>
+  </div>
+
+  <div class="img6">
+    <a href="https://www.youtube.com/" target="_blank"><img id="icon" src="img/youtube.png"></a>
+  </div>
+
     <script src="js/login.js"></script>
     <script src="js/clock.js"></script>
     <script src="js/quotes.js"></script>
    <script src="js/background.js"></script>
     <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
   </body>
 
 </html>

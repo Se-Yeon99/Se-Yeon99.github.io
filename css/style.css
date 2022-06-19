@@ -3,87 +3,76 @@
 * {
   list-style: none;
   font-family: 'Nanum Gothic', sans-serif;
-  /* margin: 0;
-  padding: 0;
-  box-sizing: border-box; */
 }
-body {
-  height: 98vh;
-  background: url(../img/5.png) no-repeat center;
-  background-size: cover; 
-  
-}
-
-
 /*login*/
 .hidden{
   display: none;
-
 }
-#login1{
+#login-text{
   width: 200px;
   height: 50px;
   border-top: none;
   border-left: none;
   border-right: none;
-  border-bottom: 3px solid rgb(90, 121, 149);
+  border-bottom: 1px solid white;
+  background: transparent;
 }
-#login2{
+#login-button{
   width: 50px;
   height: 45px;
   border-top: none;
   border-left: none;
   border-right: none;
-  border-bottom: 3px solid rgb(90, 121, 149);
+  background: transparent;
+  border: none;
 }
 #greeting{
   color: rgb(252, 252, 252);
-  font-size: 20px;
+  font-size: 25px;
   position: absolute;
-  left: 10%;
-  top: 21%;
+  left: 25%;
+  top: 24%;
   transform:translate(-50%,-50%);
 }
 .loginClass {
   position: absolute;
-  left: 10%;
-  top: 27%;
+  left: 26%;
+  top: 26%;
   transform:translate(-50%,-50%);
   
 }
 /* 시계 */
 #clock {
   margin-left: 20px;
-  color: aliceblue;
+  color: white;
   font-size: 70px;
   position: absolute;
-  left: 12%;
-  top: 2%;
+  left: 22.5%;
+  top: 8%;
   transform:translate(-50%,-50%);
 }
 /*명언*/
 #quote{
   position: absolute;
-  left: 70%;
-  top: 10%;
+  left: 50%;
+  bottom: 1%;
   transform:translate(-50%,-50%);
-  
+  color: white;
+  font-size: 12px;
 }
 
 /* todo */
 #todo-form{
   position: absolute;
-  left: 12%;
-  top: 34%;
+  right: 13%;
+  top: 20%;
   transform:translate(-50%,-50%);
-  
 }
 #todo-list{
   position: absolute;
-  left: 12%;
-  top: 40%;
+  right: 10%;
+  top: 28%;
   transform:translate(-50%,-50%);
-  
 } 
 .todo {
   width: 300px;
@@ -91,21 +80,94 @@ body {
   border-top: none;
   border-left: none;
   border-right: none;
- 
+  background: transparent;
+  color: aliceblue;
+}
+#under{
+  border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+/*weather*/
+#weather span{
+ color: white;
+ font-size: 12px;
+
+}
+#weather{
+   position: absolute;
+  right: 12%;
+  top: 8%;
+  transform:translate(-50%,-50%);
 }
 
 /* 투명박스 */
 #box {
-   width: 600px;
-    height:700px;
+   width: 500px;
+    height:200px;
     background-color: rgba(1, 43, 105, 0.1);
     border-radius: 30px;
     box-shadow: 2px 7px 15px 8px rgba(0,0,0,0.3);
     position: absolute;
-    left: 1%;
-    top: 3%;
-    /* position: absolute;
-    left: 25%;
-    top: 40%;
-    transform:translate(-50%,-50%); */
+    left: 8%;
+    top: 7%;
+}
+#box2{
+  width: 570px;
+  height:600px;
+  background-color: rgba(1, 43, 105, 0.1);
+  border-radius: 30px;
+  box-shadow: 2px 7px 15px 8px rgba(0,0,0,0.3);
+  position: absolute;
+  left: 48%;
+  top: 10%;
+}
+#box3{
+  width: 75px;
+  height: 620px;
+  background-color: rgba(1, 43, 105, 0.1);
+  border-radius: 30px;
+  box-shadow: 2px 7px 15px 8px rgba(0,0,0,0.3);
+  position: absolute;
+  right: 6%;
+  top: 8%;
+}
+
+/* login, todo input */
+input::placeholder{
+  color: white;
+}
+
+/* 아이콘 */
+#icon {
+  width: 50px;
+}
+.img1 {
+  position: absolute;
+ right: 7%;
+  top: 11%;
+}
+.img2{
+  position: absolute;
+ right: 7%;
+  top: 20%;
+}
+.img3 {
+  position: absolute;
+ right: 7%;
+  top: 29%;
+}
+.img4{
+  position: absolute;
+ right: 7%;
+  top: 37%;
+}
+.img5{
+  position: absolute;
+  right: 7%;
+   top: 46%;
+}
+.img6{
+  position: absolute;
+  right: 7%;
+   top: 54%;
 }
