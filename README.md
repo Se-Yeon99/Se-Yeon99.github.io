@@ -3,6 +3,7 @@
 * <a href="https://nomadcoders.co/c/vanillajs-challenge/lobby">Nomad Coder Vanila Javascript </a>강의를 듣고 응용하여 만든 웹사이트입니다.
 ##
 <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbZ80cl%2FbtrFe42ErZx%2FF2kSJlDKrLo431YMOFss40%2Fimg.png">
+
 * google momentum에서 지원하고 있는 기능들을 이용하여 저만의 해석으로 만들었습니다.
 
 ## 강의
