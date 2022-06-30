@@ -1,4 +1,4 @@
-# 직접 만든 나만의 Google MoMentum 👩🏻‍💻
+# 나만의 Google MoMentum 👩🏻‍💻
 * https://se-yeon99.github.io/
 * <a href="https://nomadcoders.co/c/vanillajs-challenge/lobby">Nomad Coder Vanila Javascript </a>강의를 듣고 응용하여 만든 웹사이트입니다.
 ##
