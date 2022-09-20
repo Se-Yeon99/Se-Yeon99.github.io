@@ -9,7 +9,7 @@
 
 ## 강의
 
-**Random background
+**Random background**
  - 랜덤으로 배경이미지를 배치합니다.
 **Clock
  - 시계 기능
@@ -24,5 +24,5 @@
  
 
 ## 직접 공부한 후 추가한 부분
-**MusicPlayer
+**MusicPlayer**
 
