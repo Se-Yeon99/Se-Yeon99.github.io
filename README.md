@@ -11,15 +11,21 @@
 
 **Random background**
  - 랜덤으로 배경이미지를 배치합니다.
+ 
 **Clock**
  - 시계 기능
+ 
 **Login**
  - localStorage를 이용한 로그인입니다.
+ 
 **Quotes**
  - 새로고침 시 랜덤으로 명언이 출력됩니다.
+ 
 **TodoList**
   - 추가, 삭제 기능이 있는 TodoList
+  
 **Weather**
+
  - API를 이용해 위치 추적 후 날씨를 출력합니다.
  
 
